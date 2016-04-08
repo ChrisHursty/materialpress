@@ -1,0 +1,21 @@
+{
+	"name": "mdlpress",
+	"description": "A MDL WP Theme",
+	"main": "",
+	"authors": [
+		"Chris Hurst"
+	],
+	"license": "ISC",
+	"moduleType": [],
+	"homepage": "",
+	"ignore": [
+		"**/.*",
+		"node_modules",
+		"bower_components",
+		"test",
+		"tests"
+	],
+	"devDependencies": {
+		"material-design-lite": "^1.1.3"
+	}
+}
