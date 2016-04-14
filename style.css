@@ -20,6 +20,23 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
 Normalizing styles have been helped along thanks to the fine work of
 Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 */
+/**
+ * Copyright 2015 Google Inc. All Rights Reserved.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+/* ==========  Color Palettes  ========== */
+/* colors.scss */
 /*--------------------------------------------------------------
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------
@@ -645,7 +662,7 @@ textarea {
 /* Remove the unwanted box around FAB buttons */
 /* More info: http://goo.gl/IPwKi */
 /* line 20, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/resets/_mobile.scss */
-a, .mdl-accordion, .mdl-button, .mdl-card, .mdl-checkbox, .mdl-dropdown-menu,
+a, .mdl-accordion, .mdl-button, .nav-links a, .mdl-card, .mdl-checkbox, .mdl-dropdown-menu,
 .mdl-icon-toggle, .mdl-item, .mdl-radio, .mdl-slider, .mdl-switch, .mdl-tabs__tab {
   -webkit-tap-highlight-color: transparent;
   -webkit-tap-highlight-color: rgba(255, 255, 255, 0); }
@@ -888,7 +905,7 @@ h1, h2, h3, h4, h5, h6, p {
   */
 /* line 37, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/typography/_typography.scss */
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
-  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-family: "Oswald", "Helvetica", "Arial", sans-serif;
   font-size: 56px;
   font-weight: 400;
   line-height: 1.35;
@@ -898,7 +915,7 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
 
 /* line 43, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/typography/_typography.scss */
 h1 {
-  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-family: "Oswald", "Helvetica", "Arial", sans-serif;
   font-size: 56px;
   font-weight: 400;
   line-height: 1.35;
@@ -908,7 +925,7 @@ h1 {
 
 /* line 50, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/typography/_typography.scss */
 h2 {
-  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-family: "Oswald", "Helvetica", "Arial", sans-serif;
   font-size: 45px;
   font-weight: 400;
   line-height: 48px;
@@ -917,7 +934,7 @@ h2 {
 
 /* line 57, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/typography/_typography.scss */
 h3 {
-  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-family: "Oswald", "Helvetica", "Arial", sans-serif;
   font-size: 34px;
   font-weight: 400;
   line-height: 40px;
@@ -926,7 +943,7 @@ h3 {
 
 /* line 64, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/typography/_typography.scss */
 h4 {
-  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-family: "Oswald", "Helvetica", "Arial", sans-serif;
   font-size: 24px;
   font-weight: 400;
   line-height: 32px;
@@ -936,7 +953,7 @@ h4 {
 
 /* line 71, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/typography/_typography.scss */
 h5 {
-  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-family: "Oswald", "Helvetica", "Arial", sans-serif;
   font-size: 20px;
   font-weight: 500;
   line-height: 1;
@@ -946,7 +963,7 @@ h5 {
 
 /* line 78, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/typography/_typography.scss */
 h6 {
-  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-family: "Oswald", "Helvetica", "Arial", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -964,12 +981,12 @@ p {
 
 /* line 91, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/typography/_typography.scss */
 a {
-  color: rgb(255,64,129);
+  color: rgb(33,33,33);
   font-weight: 500; }
 
 /* line 96, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/typography/_typography.scss */
 blockquote {
-  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-family: "Oswald", "Helvetica", "Arial", sans-serif;
   position: relative;
   font-size: 24px;
   font-weight: 300;
@@ -1014,7 +1031,7 @@ ul, ol {
  */
 /* line 123, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/typography/_typography.scss */
 .mdl-typography--display-4 {
-  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-family: "Oswald", "Helvetica", "Arial", sans-serif;
   font-size: 112px;
   font-weight: 300;
   line-height: 1;
@@ -1022,7 +1039,7 @@ ul, ol {
 
 /* line 127, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/typography/_typography.scss */
 .mdl-typography--display-4-color-contrast {
-  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-family: "Oswald", "Helvetica", "Arial", sans-serif;
   font-size: 112px;
   font-weight: 300;
   line-height: 1;
@@ -1031,7 +1048,7 @@ ul, ol {
 
 /* line 131, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/typography/_typography.scss */
 .mdl-typography--display-3 {
-  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-family: "Oswald", "Helvetica", "Arial", sans-serif;
   font-size: 56px;
   font-weight: 400;
   line-height: 1.35;
@@ -1039,7 +1056,7 @@ ul, ol {
 
 /* line 135, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/typography/_typography.scss */
 .mdl-typography--display-3-color-contrast {
-  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-family: "Oswald", "Helvetica", "Arial", sans-serif;
   font-size: 56px;
   font-weight: 400;
   line-height: 1.35;
@@ -1048,14 +1065,14 @@ ul, ol {
 
 /* line 139, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/typography/_typography.scss */
 .mdl-typography--display-2 {
-  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-family: "Oswald", "Helvetica", "Arial", sans-serif;
   font-size: 45px;
   font-weight: 400;
   line-height: 48px; }
 
 /* line 143, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/typography/_typography.scss */
 .mdl-typography--display-2-color-contrast {
-  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-family: "Oswald", "Helvetica", "Arial", sans-serif;
   font-size: 45px;
   font-weight: 400;
   line-height: 48px;
@@ -1063,14 +1080,14 @@ ul, ol {
 
 /* line 147, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/typography/_typography.scss */
 .mdl-typography--display-1 {
-  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-family: "Oswald", "Helvetica", "Arial", sans-serif;
   font-size: 34px;
   font-weight: 400;
   line-height: 40px; }
 
 /* line 151, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/typography/_typography.scss */
 .mdl-typography--display-1-color-contrast {
-  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-family: "Oswald", "Helvetica", "Arial", sans-serif;
   font-size: 34px;
   font-weight: 400;
   line-height: 40px;
@@ -1078,7 +1095,7 @@ ul, ol {
 
 /* line 155, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/typography/_typography.scss */
 .mdl-typography--headline {
-  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-family: "Oswald", "Helvetica", "Arial", sans-serif;
   font-size: 24px;
   font-weight: 400;
   line-height: 32px;
@@ -1086,7 +1103,7 @@ ul, ol {
 
 /* line 159, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/typography/_typography.scss */
 .mdl-typography--headline-color-contrast {
-  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-family: "Oswald", "Helvetica", "Arial", sans-serif;
   font-size: 24px;
   font-weight: 400;
   line-height: 32px;
@@ -1095,7 +1112,7 @@ ul, ol {
 
 /* line 163, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/typography/_typography.scss */
 .mdl-typography--title {
-  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-family: "Oswald", "Helvetica", "Arial", sans-serif;
   font-size: 20px;
   font-weight: 500;
   line-height: 1;
@@ -1103,7 +1120,7 @@ ul, ol {
 
 /* line 167, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/typography/_typography.scss */
 .mdl-typography--title-color-contrast {
-  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-family: "Oswald", "Helvetica", "Arial", sans-serif;
   font-size: 20px;
   font-weight: 500;
   line-height: 1;
@@ -1112,7 +1129,7 @@ ul, ol {
 
 /* line 171, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/typography/_typography.scss */
 .mdl-typography--subhead {
-  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-family: "Oswald", "Helvetica", "Arial", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -1120,7 +1137,7 @@ ul, ol {
 
 /* line 175, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/typography/_typography.scss */
 .mdl-typography--subhead-color-contrast {
-  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-family: "Oswald", "Helvetica", "Arial", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -1159,7 +1176,7 @@ ul, ol {
 
 /* line 195, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/typography/_typography.scss */
 .mdl-typography--body-2-force-preferred-font {
-  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-family: "Oswald", "Helvetica", "Arial", sans-serif;
   font-size: 14px;
   font-weight: 500;
   line-height: 24px;
@@ -1167,7 +1184,7 @@ ul, ol {
 
 /* line 199, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/typography/_typography.scss */
 .mdl-typography--body-2-force-preferred-font-color-contrast {
-  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-family: "Oswald", "Helvetica", "Arial", sans-serif;
   font-size: 14px;
   font-weight: 500;
   line-height: 24px;
@@ -1176,7 +1193,7 @@ ul, ol {
 
 /* line 203, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/typography/_typography.scss */
 .mdl-typography--body-1-force-preferred-font {
-  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-family: "Oswald", "Helvetica", "Arial", sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
@@ -1184,7 +1201,7 @@ ul, ol {
 
 /* line 207, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/typography/_typography.scss */
 .mdl-typography--body-1-force-preferred-font-color-contrast {
-  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-family: "Oswald", "Helvetica", "Arial", sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
@@ -1200,7 +1217,7 @@ ul, ol {
 
 /* line 215, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/typography/_typography.scss */
 .mdl-typography--caption-force-preferred-font {
-  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-family: "Oswald", "Helvetica", "Arial", sans-serif;
   font-size: 12px;
   font-weight: 400;
   line-height: 1;
@@ -1216,7 +1233,7 @@ ul, ol {
 
 /* line 223, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/typography/_typography.scss */
 .mdl-typography--caption-force-preferred-font-color-contrast {
-  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-family: "Oswald", "Helvetica", "Arial", sans-serif;
   font-size: 12px;
   font-weight: 400;
   line-height: 1;
@@ -1225,7 +1242,7 @@ ul, ol {
 
 /* line 227, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/typography/_typography.scss */
 .mdl-typography--menu {
-  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-family: "Oswald", "Helvetica", "Arial", sans-serif;
   font-size: 14px;
   font-weight: 500;
   line-height: 1;
@@ -1233,7 +1250,7 @@ ul, ol {
 
 /* line 231, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/typography/_typography.scss */
 .mdl-typography--menu-color-contrast {
-  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-family: "Oswald", "Helvetica", "Arial", sans-serif;
   font-size: 14px;
   font-weight: 500;
   line-height: 1;
@@ -1242,7 +1259,7 @@ ul, ol {
 
 /* line 235, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/typography/_typography.scss */
 .mdl-typography--button {
-  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-family: "Oswald", "Helvetica", "Arial", sans-serif;
   font-size: 14px;
   font-weight: 500;
   text-transform: uppercase;
@@ -1251,7 +1268,7 @@ ul, ol {
 
 /* line 239, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/typography/_typography.scss */
 .mdl-typography--button-color-contrast {
-  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-family: "Oswald", "Helvetica", "Arial", sans-serif;
   font-size: 14px;
   font-weight: 500;
   text-transform: uppercase;
@@ -3698,7 +3715,7 @@ ul, ol {
 
 /* line 2265, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/palette/_palette.scss */
 .mdl-color--primary {
-  background-color: rgb(63,81,181) !important; }
+  background-color: rgb(33,150,243) !important; }
 
 /* line 2269, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/palette/_palette.scss */
 .mdl-color--primary-contrast {
@@ -3706,11 +3723,11 @@ ul, ol {
 
 /* line 2273, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/palette/_palette.scss */
 .mdl-color--primary-dark {
-  background-color: rgb(48,63,159) !important; }
+  background-color: rgb(25,118,210) !important; }
 
 /* line 2277, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/palette/_palette.scss */
 .mdl-color--accent {
-  background-color: rgb(255,64,129) !important; }
+  background-color: rgb(33,33,33) !important; }
 
 /* line 2281, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/palette/_palette.scss */
 .mdl-color--accent-contrast {
@@ -3718,7 +3735,7 @@ ul, ol {
 
 /* line 2285, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/palette/_palette.scss */
 .mdl-color-text--primary {
-  color: rgb(63,81,181) !important; }
+  color: rgb(33,150,243) !important; }
 
 /* line 2289, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/palette/_palette.scss */
 .mdl-color-text--primary-contrast {
@@ -3726,11 +3743,11 @@ ul, ol {
 
 /* line 2293, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/palette/_palette.scss */
 .mdl-color-text--primary-dark {
-  color: rgb(48,63,159) !important; }
+  color: rgb(25,118,210) !important; }
 
 /* line 2297, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/palette/_palette.scss */
 .mdl-color-text--accent {
-  color: rgb(255,64,129) !important; }
+  color: rgb(33,33,33) !important; }
 
 /* line 2301, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/palette/_palette.scss */
 .mdl-color-text--accent-contrast {
@@ -4310,21 +4327,21 @@ ul, ol {
     position: absolute;
     top: -11px;
     right: -24px;
-    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-family: "Oswald", "Helvetica", "Arial", sans-serif;
     font-weight: 600;
     font-size: 12px;
     width: 22px;
     height: 22px;
     border-radius: 50%;
-    background: rgb(255,64,129);
+    background: rgb(33,33,33);
     color: rgb(255,255,255); }
     /* line 42, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/badge/_badge.scss */
-    .mdl-button .mdl-badge[data-badge]:after {
+    .mdl-button .mdl-badge[data-badge]:after, .nav-links a .mdl-badge[data-badge]:after {
       top: -10px;
       right: -5px; }
   /* line 59, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/badge/_badge.scss */
   .mdl-badge.mdl-badge--no-background[data-badge]:after {
-    color: rgb(255,64,129);
+    color: rgb(33,33,33);
     background: rgba(255,255,255,0.2);
     box-shadow: 0 0 1px gray; }
   /* line 66, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/badge/_badge.scss */
@@ -4519,7 +4536,7 @@ ul, ol {
 /* Animations */
 /* Dialog */
 /* line 21, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/button/_button.scss */
-.mdl-button {
+.mdl-button, .nav-links a {
   background: transparent;
   border: none;
   border-radius: 2px;
@@ -4530,7 +4547,7 @@ ul, ol {
   min-width: 64px;
   padding: 0 16px;
   display: inline-block;
-  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-family: "Oswald", "Helvetica", "Arial", sans-serif;
   font-size: 14px;
   font-weight: 500;
   text-transform: uppercase;
@@ -4547,22 +4564,22 @@ ul, ol {
   line-height: 36px;
   vertical-align: middle; }
   /* line 45, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/button/_button.scss */
-  .mdl-button::-moz-focus-inner {
+  .mdl-button::-moz-focus-inner, .nav-links a::-moz-focus-inner {
     border: 0; }
   /* line 49, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/button/_button.scss */
-  .mdl-button:hover {
+  .mdl-button:hover, .nav-links a:hover {
     background-color: rgba(158,158,158, 0.20); }
   /* line 53, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/button/_button.scss */
-  .mdl-button:focus:not(:active) {
+  .mdl-button:focus:not(:active), .nav-links a:focus:not(:active) {
     background-color: rgba(0,0,0, 0.12); }
   /* line 57, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/button/_button.scss */
-  .mdl-button:active {
+  .mdl-button:active, .nav-links a:active {
     background-color: rgba(158,158,158, 0.40); }
   /* line 61, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/button/_button.scss */
-  .mdl-button.mdl-button--colored {
-    color: rgb(63,81,181); }
+  .mdl-button.mdl-button--colored, .nav-links a.mdl-button--colored {
+    color: rgb(33,150,243); }
     /* line 64, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/button/_button.scss */
-    .mdl-button.mdl-button--colored:focus:not(:active) {
+    .mdl-button.mdl-button--colored:focus:not(:active), .nav-links a.mdl-button--colored:focus:not(:active) {
       background-color: rgba(0,0,0, 0.12); }
 
 /* line 70, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/button/_button.scss */
@@ -4583,23 +4600,23 @@ input.mdl-button[type="submit"] {
     background-color: rgba(158,158,158, 0.40); }
   /* line 89, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/button/_button.scss */
   .mdl-button--raised.mdl-button--colored {
-    background: rgb(63,81,181);
+    background: rgb(33,150,243);
     color: rgb(255,255,255); }
     /* line 93, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/button/_button.scss */
     .mdl-button--raised.mdl-button--colored:hover {
-      background-color: rgb(63,81,181); }
+      background-color: rgb(33,150,243); }
     /* line 97, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/button/_button.scss */
     .mdl-button--raised.mdl-button--colored:active {
-      background-color: rgb(63,81,181); }
+      background-color: rgb(33,150,243); }
     /* line 101, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/button/_button.scss */
     .mdl-button--raised.mdl-button--colored:focus:not(:active) {
-      background-color: rgb(63,81,181); }
+      background-color: rgb(33,150,243); }
     /* line 105, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/button/_button.scss */
     .mdl-button--raised.mdl-button--colored .mdl-ripple {
       background: rgb(255,255,255); }
 
 /* line 113, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/button/_button.scss */
-.mdl-button--fab {
+.mdl-button--fab, .nav-links a {
   border-radius: 50%;
   font-size: 24px;
   height: 56px;
@@ -4613,7 +4630,7 @@ input.mdl-button[type="submit"] {
   position: relative;
   line-height: normal; }
   /* line 127, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/button/_button.scss */
-  .mdl-button--fab .material-icons {
+  .mdl-button--fab .material-icons, .nav-links a .material-icons {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -4622,37 +4639,37 @@ input.mdl-button[type="submit"] {
     line-height: 24px;
     width: 24px; }
   /* line 136, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/button/_button.scss */
-  .mdl-button--fab.mdl-button--mini-fab {
+  .mdl-button--fab.mdl-button--mini-fab, .nav-links a.mdl-button--mini-fab {
     height: 40px;
     min-width: 40px;
     width: 40px; }
   /* line 142, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/button/_button.scss */
-  .mdl-button--fab .mdl-button__ripple-container {
+  .mdl-button--fab .mdl-button__ripple-container, .nav-links a .mdl-button__ripple-container {
     border-radius: 50%;
     -webkit-mask-image: -webkit-radial-gradient(circle, white, black); }
   /* line 148, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/button/_button.scss */
-  .mdl-button--fab:active {
+  .mdl-button--fab:active, .nav-links a:active {
     box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
     background-color: rgba(158,158,158, 0.40); }
   /* line 153, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/button/_button.scss */
-  .mdl-button--fab:focus:not(:active) {
+  .mdl-button--fab:focus:not(:active), .nav-links a:focus:not(:active) {
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.18), 0 8px 16px rgba(0, 0, 0, 0.36);
     background-color: rgba(158,158,158, 0.40); }
   /* line 158, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/button/_button.scss */
-  .mdl-button--fab.mdl-button--colored {
-    background: rgb(255,64,129);
+  .mdl-button--fab.mdl-button--colored, .nav-links a.mdl-button--colored {
+    background: rgb(33,33,33);
     color: rgb(255,255,255); }
     /* line 162, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/button/_button.scss */
-    .mdl-button--fab.mdl-button--colored:hover {
-      background-color: rgb(255,64,129); }
+    .mdl-button--fab.mdl-button--colored:hover, .nav-links a.mdl-button--colored:hover {
+      background-color: rgb(33,33,33); }
     /* line 166, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/button/_button.scss */
-    .mdl-button--fab.mdl-button--colored:focus:not(:active) {
-      background-color: rgb(255,64,129); }
+    .mdl-button--fab.mdl-button--colored:focus:not(:active), .nav-links a.mdl-button--colored:focus:not(:active) {
+      background-color: rgb(33,33,33); }
     /* line 170, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/button/_button.scss */
-    .mdl-button--fab.mdl-button--colored:active {
-      background-color: rgb(255,64,129); }
+    .mdl-button--fab.mdl-button--colored:active, .nav-links a.mdl-button--colored:active {
+      background-color: rgb(33,33,33); }
     /* line 174, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/button/_button.scss */
-    .mdl-button--fab.mdl-button--colored .mdl-ripple {
+    .mdl-button--fab.mdl-button--colored .mdl-ripple, .nav-links a.mdl-button--colored .mdl-ripple {
       background: rgb(255,255,255); }
 
 /* line 182, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/button/_button.scss */
@@ -4702,40 +4719,40 @@ input.mdl-button[type="submit"] {
   z-index: 0;
   overflow: hidden; }
   /* line 234, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/button/_button.scss */
-  .mdl-button[disabled] .mdl-button__ripple-container .mdl-ripple,
-  .mdl-button.mdl-button--disabled .mdl-button__ripple-container .mdl-ripple {
+  .mdl-button[disabled] .mdl-button__ripple-container .mdl-ripple, .nav-links a[disabled] .mdl-button__ripple-container .mdl-ripple,
+  .mdl-button.mdl-button--disabled .mdl-button__ripple-container .mdl-ripple, .nav-links a.mdl-button--disabled .mdl-button__ripple-container .mdl-ripple {
     background-color: transparent; }
 
 /* line 242, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/button/_button.scss */
 .mdl-button--primary.mdl-button--primary {
-  color: rgb(63,81,181); }
+  color: rgb(33,150,243); }
   /* line 244, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/button/_button.scss */
   .mdl-button--primary.mdl-button--primary .mdl-ripple {
     background: rgb(255,255,255); }
   /* line 247, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/button/_button.scss */
-  .mdl-button--primary.mdl-button--primary.mdl-button--raised, .mdl-button--primary.mdl-button--primary.mdl-button--fab {
+  .mdl-button--primary.mdl-button--primary.mdl-button--raised, .mdl-button--primary.mdl-button--primary.mdl-button--fab, .nav-links a.mdl-button--primary.mdl-button--primary {
     color: rgb(255,255,255);
-    background-color: rgb(63,81,181); }
+    background-color: rgb(33,150,243); }
 
 /* line 253, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/button/_button.scss */
 .mdl-button--accent.mdl-button--accent {
-  color: rgb(255,64,129); }
+  color: rgb(33,33,33); }
   /* line 255, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/button/_button.scss */
   .mdl-button--accent.mdl-button--accent .mdl-ripple {
     background: rgb(255,255,255); }
   /* line 258, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/button/_button.scss */
-  .mdl-button--accent.mdl-button--accent.mdl-button--raised, .mdl-button--accent.mdl-button--accent.mdl-button--fab {
+  .mdl-button--accent.mdl-button--accent.mdl-button--raised, .mdl-button--accent.mdl-button--accent.mdl-button--fab, .nav-links a.mdl-button--accent.mdl-button--accent {
     color: rgb(255,255,255);
-    background-color: rgb(255,64,129); }
+    background-color: rgb(33,33,33); }
 
 /* line 268, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/button/_button.scss */
-.mdl-button[disabled][disabled], .mdl-button.mdl-button--disabled.mdl-button--disabled {
+.mdl-button[disabled][disabled], .nav-links a[disabled][disabled], .mdl-button.mdl-button--disabled.mdl-button--disabled, .nav-links a.mdl-button--disabled.mdl-button--disabled {
   color: rgba(0,0,0, 0.26);
   cursor: default;
   background-color: transparent; }
 
 /* line 277, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/button/_button.scss */
-.mdl-button--fab[disabled][disabled], .mdl-button--fab.mdl-button--disabled.mdl-button--disabled {
+.mdl-button--fab[disabled][disabled], .nav-links a[disabled][disabled], .mdl-button--fab.mdl-button--disabled.mdl-button--disabled, .nav-links a.mdl-button--disabled.mdl-button--disabled {
   background-color: rgba(0,0,0, 0.12);
   color: rgba(0,0,0, 0.26); }
 
@@ -4750,7 +4767,7 @@ input.mdl-button[type="submit"] {
   color: rgba(0,0,0, 0.26); }
 
 /* line 303, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/button/_button.scss */
-.mdl-button .material-icons {
+.mdl-button .material-icons, .nav-links a .material-icons {
   vertical-align: middle; }
 
 /**
@@ -4942,7 +4959,7 @@ input.mdl-button[type="submit"] {
 
 /* line 34, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/card/_card.scss */
 .mdl-card__media {
-  background-color: rgb(255,64,129);
+  background-color: rgb(33,33,33);
   background-repeat: repeat;
   background-position: 50% 50%;
   background-size: cover;
@@ -5269,7 +5286,7 @@ input.mdl-button[type="submit"] {
   z-index: 2; }
   /* line 79, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/checkbox/_checkbox.scss */
   .mdl-checkbox.is-checked .mdl-checkbox__box-outline {
-    border: 2px solid rgb(63,81,181); }
+    border: 2px solid rgb(33,150,243); }
   /* line 83, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/checkbox/_checkbox.scss */
   fieldset[disabled] .mdl-checkbox .mdl-checkbox__box-outline,
   .mdl-checkbox.is-disabled .mdl-checkbox__box-outline {
@@ -5293,8 +5310,8 @@ input.mdl-button[type="submit"] {
     background-color: rgba(0, 0, 0, 0.1); }
   /* line 109, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/checkbox/_checkbox.scss */
   .mdl-checkbox.is-focused.is-checked .mdl-checkbox__focus-helper {
-    box-shadow: 0 0 0px 8px rgba(63,81,181, 0.26);
-    background-color: rgba(63,81,181, 0.26); }
+    box-shadow: 0 0 0px 8px rgba(33,150,243, 0.26);
+    background-color: rgba(33,150,243, 0.26); }
 
 /* line 115, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/checkbox/_checkbox.scss */
 .mdl-checkbox__tick-outline {
@@ -5314,7 +5331,7 @@ input.mdl-button[type="submit"] {
           transition-property: background; }
   /* line 127, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/checkbox/_checkbox.scss */
   .mdl-checkbox.is-checked .mdl-checkbox__tick-outline {
-    background: rgb(63,81,181) url("/images/tick.svg?embed"); }
+    background: rgb(33,150,243) url("/images/tick.svg?embed"); }
   /* line 131, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/checkbox/_checkbox.scss */
   fieldset[disabled] .mdl-checkbox.is-checked .mdl-checkbox__tick-outline,
   .mdl-checkbox.is-checked.is-disabled .mdl-checkbox__tick-outline {
@@ -5348,7 +5365,7 @@ input.mdl-button[type="submit"] {
   -webkit-mask-image: -webkit-radial-gradient(circle, white, black); }
   /* line 167, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/checkbox/_checkbox.scss */
   .mdl-checkbox__ripple-container .mdl-ripple {
-    background: rgb(63,81,181); }
+    background: rgb(33,150,243); }
   /* line 171, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/checkbox/_checkbox.scss */
   fieldset[disabled] .mdl-checkbox .mdl-checkbox__ripple-container,
   .mdl-checkbox.is-disabled .mdl-checkbox__ripple-container {
@@ -6793,7 +6810,7 @@ input.mdl-button[type="submit"] {
     font-size: 24px; }
   /* line 74, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/icon-toggle/_icon-toggle.scss */
   .mdl-icon-toggle.is-checked .mdl-icon-toggle__label {
-    color: rgb(63,81,181); }
+    color: rgb(33,150,243); }
   /* line 78, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/icon-toggle/_icon-toggle.scss */
   .mdl-icon-toggle.is-disabled .mdl-icon-toggle__label {
     color: rgba(0,0,0, 0.26);
@@ -6805,7 +6822,7 @@ input.mdl-button[type="submit"] {
     background-color: rgba(0,0,0, 0.12); }
   /* line 88, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/icon-toggle/_icon-toggle.scss */
   .mdl-icon-toggle.is-focused.is-checked .mdl-icon-toggle__label {
-    background-color: rgba(63,81,181, 0.26); }
+    background-color: rgba(33,150,243, 0.26); }
 
 /* line 94, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/icon-toggle/_icon-toggle.scss */
 .mdl-icon-toggle__ripple-container {
@@ -7022,7 +7039,7 @@ input.mdl-button[type="submit"] {
 
 /* line 27, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/list/_list.scss */
 .mdl-list__item {
-  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-family: "Oswald", "Helvetica", "Arial", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -7721,14 +7738,14 @@ input.mdl-button[type="submit"] {
 
 /* line 36, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/progress/_progress.scss */
 .mdl-progress > .progressbar {
-  background-color: rgb(63,81,181);
+  background-color: rgb(33,150,243);
   z-index: 1;
   left: 0; }
 
 /* line 42, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/progress/_progress.scss */
 .mdl-progress > .bufferbar {
-  background-image: -webkit-linear-gradient(left, rgba(255,255,255, 0.7), rgba(255,255,255, 0.7)), -webkit-linear-gradient(left, rgb(63,81,181), rgb(63,81,181));
-  background-image: linear-gradient(to right, rgba(255,255,255, 0.7), rgba(255,255,255, 0.7)), linear-gradient(to right, rgb(63,81,181), rgb(63,81,181));
+  background-image: -webkit-linear-gradient(left, rgba(255,255,255, 0.7), rgba(255,255,255, 0.7)), -webkit-linear-gradient(left, rgb(33,150,243), rgb(33,150,243));
+  background-image: linear-gradient(to right, rgba(255,255,255, 0.7), rgba(255,255,255, 0.7)), linear-gradient(to right, rgb(33,150,243), rgb(33,150,243));
   z-index: 0;
   left: 0; }
 
@@ -7740,21 +7757,21 @@ input.mdl-button[type="submit"] {
   /* line 55, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/progress/_progress.scss */
   .mdl-progress:not(.mdl-progress--indeterminate):not(.mdl-progress--indeterminate) > .auxbar,
   .mdl-progress:not(.mdl-progress__indeterminate):not(.mdl-progress__indeterminate) > .auxbar {
-    background-image: -webkit-linear-gradient(left, rgba(255,255,255, 0.7), rgba(255,255,255, 0.7)), -webkit-linear-gradient(left, rgb(63,81,181), rgb(63,81,181));
-    background-image: linear-gradient(to right, rgba(255,255,255, 0.7), rgba(255,255,255, 0.7)), linear-gradient(to right, rgb(63,81,181), rgb(63,81,181));
+    background-image: -webkit-linear-gradient(left, rgba(255,255,255, 0.7), rgba(255,255,255, 0.7)), -webkit-linear-gradient(left, rgb(33,150,243), rgb(33,150,243));
+    background-image: linear-gradient(to right, rgba(255,255,255, 0.7), rgba(255,255,255, 0.7)), linear-gradient(to right, rgb(33,150,243), rgb(33,150,243));
     -webkit-mask: url("/images/buffer.svg?embed");
             mask: url("/images/buffer.svg?embed"); } }
 
 /* line 63, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/progress/_progress.scss */
 .mdl-progress:not(.mdl-progress--indeterminate) > .auxbar,
 .mdl-progress:not(.mdl-progress__indeterminate) > .auxbar {
-  background-image: -webkit-linear-gradient(left, rgba(255,255,255, 0.9), rgba(255,255,255, 0.9)), -webkit-linear-gradient(left, rgb(63,81,181), rgb(63,81,181));
-  background-image: linear-gradient(to right, rgba(255,255,255, 0.9), rgba(255,255,255, 0.9)), linear-gradient(to right, rgb(63,81,181), rgb(63,81,181)); }
+  background-image: -webkit-linear-gradient(left, rgba(255,255,255, 0.9), rgba(255,255,255, 0.9)), -webkit-linear-gradient(left, rgb(33,150,243), rgb(33,150,243));
+  background-image: linear-gradient(to right, rgba(255,255,255, 0.9), rgba(255,255,255, 0.9)), linear-gradient(to right, rgb(33,150,243), rgb(33,150,243)); }
 
 /* line 69, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/progress/_progress.scss */
 .mdl-progress.mdl-progress--indeterminate > .bar1,
 .mdl-progress.mdl-progress__indeterminate > .bar1 {
-  background-color: rgb(63,81,181);
+  background-color: rgb(33,150,243);
   -webkit-animation-name: indeterminate1;
           animation-name: indeterminate1;
   -webkit-animation-duration: 2s;
@@ -7768,7 +7785,7 @@ input.mdl-button[type="submit"] {
 .mdl-progress.mdl-progress--indeterminate > .bar3,
 .mdl-progress.mdl-progress__indeterminate > .bar3 {
   background-image: none;
-  background-color: rgb(63,81,181);
+  background-color: rgb(33,150,243);
   -webkit-animation-name: indeterminate2;
           animation-name: indeterminate2;
   -webkit-animation-duration: 2s;
@@ -8074,7 +8091,7 @@ input.mdl-button[type="submit"] {
 .mdl-layout-title {
   display: block;
   position: relative;
-  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-family: "Oswald", "Helvetica", "Arial", sans-serif;
   font-size: 20px;
   font-weight: 500;
   line-height: 1;
@@ -8264,7 +8281,7 @@ input.mdl-button[type="submit"] {
   min-height: 64px;
   max-height: 1000px;
   z-index: 3;
-  background-color: rgb(63,81,181);
+  background-color: rgb(33,150,243);
   color: rgb(255,255,255);
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
   -webkit-transition-duration: 0.2s;
@@ -8508,7 +8525,7 @@ input.mdl-button[type="submit"] {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  background-color: rgb(63,81,181);
+  background-color: rgb(33,150,243);
   overflow-y: hidden;
   overflow-x: scroll; }
   /* line 486, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/layout/_layout.scss */
@@ -8569,7 +8586,7 @@ input.mdl-button[type="submit"] {
   width: 56px;
   z-index: 4;
   text-align: center;
-  background-color: rgb(63,81,181);
+  background-color: rgb(33,150,243);
   color: transparent;
   cursor: pointer;
   -webkit-user-select: none;
@@ -8656,7 +8673,7 @@ input.mdl-button[type="submit"] {
     bottom: 0;
     left: 0;
     position: absolute;
-    background: rgb(255,64,129);
+    background: rgb(33,33,33);
     -webkit-animation: border-expand 0.2s cubic-bezier(0.4, 0, 0.4, 1) 0.01s alternate forwards;
             animation: border-expand 0.2s cubic-bezier(0.4, 0, 0.4, 1) 0.01s alternate forwards;
     -webkit-transition: all 1s cubic-bezier(0.4, 0, 1, 1);
@@ -8915,7 +8932,7 @@ input.mdl-button[type="submit"] {
   z-index: 2; }
   /* line 75, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/radio/_radio.scss */
   .mdl-radio.is-checked .mdl-radio__outer-circle {
-    border: 2px solid rgb(63,81,181); }
+    border: 2px solid rgb(33,150,243); }
   /* line 79, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/radio/_radio.scss */
   .mdl-radio__outer-circle fieldset[disabled] .mdl-radio,
   .mdl-radio.is-disabled .mdl-radio__outer-circle {
@@ -8942,7 +8959,7 @@ input.mdl-button[type="submit"] {
   -webkit-transform: scale3d(0, 0, 0);
           transform: scale3d(0, 0, 0);
   border-radius: 50%;
-  background: rgb(63,81,181); }
+  background: rgb(33,150,243); }
   /* line 106, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/radio/_radio.scss */
   .mdl-radio.is-checked .mdl-radio__inner-circle {
     -webkit-transform: scale3d(1, 1, 1);
@@ -8980,7 +8997,7 @@ input.mdl-button[type="submit"] {
   -webkit-mask-image: -webkit-radial-gradient(circle, white, black); }
   /* line 147, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/radio/_radio.scss */
   .mdl-radio__ripple-container .mdl-ripple {
-    background: rgb(63,81,181); }
+    background: rgb(33,150,243); }
   /* line 151, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/radio/_radio.scss */
   fieldset[disabled] .mdl-radio .mdl-radio__ripple-container,
   .mdl-radio.is-disabled .mdl-radio__ripple-container {
@@ -9178,7 +9195,7 @@ _:-ms-input-placeholder, :root .mdl-slider.mdl-slider.is-upgraded {
         user-select: none;
     outline: 0;
     padding: 0;
-    color: rgb(63,81,181);
+    color: rgb(33,150,243);
     -webkit-align-self: center;
         -ms-flex-item-align: center;
             align-self: center;
@@ -9211,7 +9228,7 @@ _:-ms-input-placeholder, :root .mdl-slider.mdl-slider.is-upgraded {
     /* line 79, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/slider/_slider.scss */
     .mdl-slider.is-upgraded::-ms-fill-lower {
       padding: 0;
-      background: linear-gradient(to right, transparent, transparent 16px, rgb(63,81,181) 16px, rgb(63,81,181) 0); }
+      background: linear-gradient(to right, transparent, transparent 16px, rgb(33,150,243) 16px, rgb(33,150,243) 0); }
     /* line 90, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/slider/_slider.scss */
     .mdl-slider.is-upgraded::-ms-fill-upper {
       padding: 0;
@@ -9223,7 +9240,7 @@ _:-ms-input-placeholder, :root .mdl-slider.mdl-slider.is-upgraded {
       height: 12px;
       box-sizing: border-box;
       border-radius: 50%;
-      background: rgb(63,81,181);
+      background: rgb(33,150,243);
       border: none;
       -webkit-transition: -webkit-transform 0.18s cubic-bezier(0.4, 0, 0.2, 1), border 0.18s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.18s cubic-bezier(0.4, 0, 0.2, 1), background 0.28s cubic-bezier(0.4, 0, 0.2, 1);
               transition: transform 0.18s cubic-bezier(0.4, 0, 0.2, 1), border 0.18s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.18s cubic-bezier(0.4, 0, 0.2, 1), background 0.28s cubic-bezier(0.4, 0, 0.2, 1); }
@@ -9235,24 +9252,24 @@ _:-ms-input-placeholder, :root .mdl-slider.mdl-slider.is-upgraded {
       box-sizing: border-box;
       border-radius: 50%;
       background-image: none;
-      background: rgb(63,81,181);
+      background: rgb(33,150,243);
       border: none; }
     /* line 129, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/slider/_slider.scss */
     .mdl-slider.is-upgraded:focus:not(:active)::-webkit-slider-thumb {
-      box-shadow: 0 0 0 10px rgba(63,81,181, 0.26); }
+      box-shadow: 0 0 0 10px rgba(33,150,243, 0.26); }
     /* line 133, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/slider/_slider.scss */
     .mdl-slider.is-upgraded:focus:not(:active)::-moz-range-thumb {
-      box-shadow: 0 0 0 10px rgba(63,81,181, 0.26); }
+      box-shadow: 0 0 0 10px rgba(33,150,243, 0.26); }
     /* line 137, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/slider/_slider.scss */
     .mdl-slider.is-upgraded:active::-webkit-slider-thumb {
       background-image: none;
-      background: rgb(63,81,181);
+      background: rgb(33,150,243);
       -webkit-transform: scale(1.5);
               transform: scale(1.5); }
     /* line 143, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/slider/_slider.scss */
     .mdl-slider.is-upgraded:active::-moz-range-thumb {
       background-image: none;
-      background: rgb(63,81,181);
+      background: rgb(33,150,243);
       transform: scale(1.5); }
     /* line 149, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/slider/_slider.scss */
     .mdl-slider.is-upgraded::-ms-thumb {
@@ -9260,16 +9277,16 @@ _:-ms-input-placeholder, :root .mdl-slider.mdl-slider.is-upgraded {
       height: 32px;
       border: none;
       border-radius: 50%;
-      background: rgb(63,81,181);
+      background: rgb(33,150,243);
       transform: scale(0.375);
       transition: transform 0.18s cubic-bezier(0.4, 0, 0.2, 1), background 0.28s cubic-bezier(0.4, 0, 0.2, 1); }
     /* line 162, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/slider/_slider.scss */
     .mdl-slider.is-upgraded:focus:not(:active)::-ms-thumb {
-      background: radial-gradient(circle closest-side, rgb(63,81,181) 0%, rgb(63,81,181) 37.5%, rgba(63,81,181, 0.26) 37.5%, rgba(63,81,181, 0.26) 100%);
+      background: radial-gradient(circle closest-side, rgb(33,150,243) 0%, rgb(33,150,243) 37.5%, rgba(33,150,243, 0.26) 37.5%, rgba(33,150,243, 0.26) 100%);
       transform: scale(1); }
     /* line 171, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/slider/_slider.scss */
     .mdl-slider.is-upgraded:active::-ms-thumb {
-      background: rgb(63,81,181);
+      background: rgb(33,150,243);
       transform: scale(0.5625); }
     /* line 178, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/slider/_slider.scss */
     .mdl-slider.is-upgraded.is-lowest-value::-webkit-slider-thumb {
@@ -9420,7 +9437,7 @@ _:-ms-input-placeholder, :root .mdl-slider.mdl-slider.is-upgraded {
 
 /* line 381, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/slider/_slider.scss */
 .mdl-slider__background-lower {
-  background: rgb(63,81,181);
+  background: rgb(33,150,243);
   -webkit-box-flex: 0;
   -webkit-flex: 0;
       -ms-flex: 0;
@@ -9643,7 +9660,7 @@ _:-ms-input-placeholder, :root .mdl-slider.mdl-slider.is-upgraded {
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-family: "Oswald", "Helvetica", "Arial", sans-serif;
   will-change: transform;
   -webkit-transform: translate(0, 80px);
           transform: translate(0, 80px);
@@ -9687,11 +9704,11 @@ _:-ms-input-placeholder, :root .mdl-slider.mdl-slider.is-upgraded {
   .mdl-snackbar__action {
     background: transparent;
     border: none;
-    color: rgb(255,64,129);
+    color: rgb(33,33,33);
     float: right;
     text-transform: uppercase;
     padding: 14px 24px 14px 12px;
-    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-family: "Oswald", "Helvetica", "Arial", sans-serif;
     font-size: 14px;
     font-weight: 500;
     text-transform: uppercase;
@@ -9916,7 +9933,7 @@ _:-ms-input-placeholder, :root .mdl-slider.mdl-slider.is-upgraded {
   border-color: rgb(66,165,245); }
   /* line 49, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/spinner/_spinner.scss */
   .mdl-spinner--single-color .mdl-spinner__layer-1 {
-    border-color: rgb(63,81,181); }
+    border-color: rgb(33,150,243); }
   /* line 53, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/spinner/_spinner.scss */
   .mdl-spinner.is-active .mdl-spinner__layer-1 {
     -webkit-animation: mdl-spinner__fill-unfill-rotate 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both, mdl-spinner__layer-1-fade-in-out 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
@@ -9927,7 +9944,7 @@ _:-ms-input-placeholder, :root .mdl-slider.mdl-slider.is-upgraded {
   border-color: rgb(244,67,54); }
   /* line 65, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/spinner/_spinner.scss */
   .mdl-spinner--single-color .mdl-spinner__layer-2 {
-    border-color: rgb(63,81,181); }
+    border-color: rgb(33,150,243); }
   /* line 69, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/spinner/_spinner.scss */
   .mdl-spinner.is-active .mdl-spinner__layer-2 {
     -webkit-animation: mdl-spinner__fill-unfill-rotate 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both, mdl-spinner__layer-2-fade-in-out 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
@@ -9938,7 +9955,7 @@ _:-ms-input-placeholder, :root .mdl-slider.mdl-slider.is-upgraded {
   border-color: rgb(253,216,53); }
   /* line 81, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/spinner/_spinner.scss */
   .mdl-spinner--single-color .mdl-spinner__layer-3 {
-    border-color: rgb(63,81,181); }
+    border-color: rgb(33,150,243); }
   /* line 85, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/spinner/_spinner.scss */
   .mdl-spinner.is-active .mdl-spinner__layer-3 {
     -webkit-animation: mdl-spinner__fill-unfill-rotate 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both, mdl-spinner__layer-3-fade-in-out 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
@@ -9949,7 +9966,7 @@ _:-ms-input-placeholder, :root .mdl-slider.mdl-slider.is-upgraded {
   border-color: rgb(76,175,80); }
   /* line 97, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/spinner/_spinner.scss */
   .mdl-spinner--single-color .mdl-spinner__layer-4 {
-    border-color: rgb(63,81,181); }
+    border-color: rgb(33,150,243); }
   /* line 101, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/spinner/_spinner.scss */
   .mdl-spinner.is-active .mdl-spinner__layer-4 {
     -webkit-animation: mdl-spinner__fill-unfill-rotate 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both, mdl-spinner__layer-4-fade-in-out 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
@@ -10464,7 +10481,7 @@ _:-ms-input-placeholder, :root .mdl-slider.mdl-slider.is-upgraded {
   cursor: pointer; }
   /* line 80, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/switch/_switch.scss */
   .mdl-switch.is-checked .mdl-switch__track {
-    background: rgba(63,81,181, 0.5); }
+    background: rgba(33,150,243, 0.5); }
   /* line 84, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/switch/_switch.scss */
   .mdl-switch__track fieldset[disabled] .mdl-switch,
   .mdl-switch.is-disabled .mdl-switch__track {
@@ -10490,7 +10507,7 @@ _:-ms-input-placeholder, :root .mdl-slider.mdl-slider.is-upgraded {
           transition-property: left; }
   /* line 107, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/switch/_switch.scss */
   .mdl-switch.is-checked .mdl-switch__thumb {
-    background: rgb(63,81,181);
+    background: rgb(33,150,243);
     left: 16px;
     box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.14), 0 3px 3px -2px rgba(0, 0, 0, 0.2), 0 1px 8px 0 rgba(0, 0, 0, 0.12); }
   /* line 114, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/switch/_switch.scss */
@@ -10518,8 +10535,8 @@ _:-ms-input-placeholder, :root .mdl-slider.mdl-slider.is-upgraded {
     background-color: rgba(0, 0, 0, 0.1); }
   /* line 143, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/switch/_switch.scss */
   .mdl-switch.is-focused.is-checked .mdl-switch__focus-helper {
-    box-shadow: 0 0 0px 20px rgba(63,81,181, 0.26);
-    background-color: rgba(63,81,181, 0.26); }
+    box-shadow: 0 0 0px 20px rgba(33,150,243, 0.26);
+    background-color: rgba(33,150,243, 0.26); }
 
 /* line 150, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/switch/_switch.scss */
 .mdl-switch__label {
@@ -10556,7 +10573,7 @@ _:-ms-input-placeholder, :root .mdl-slider.mdl-slider.is-upgraded {
           transition-property: left; }
   /* line 185, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/switch/_switch.scss */
   .mdl-switch__ripple-container .mdl-ripple {
-    background: rgb(63,81,181); }
+    background: rgb(33,150,243); }
   /* line 189, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/switch/_switch.scss */
   .mdl-switch__ripple-container fieldset[disabled] .mdl-switch,
   .mdl-switch.is-disabled .mdl-switch__ripple-container {
@@ -10795,7 +10812,7 @@ _:-ms-input-placeholder, :root .mdl-slider.mdl-slider.is-upgraded {
     bottom: 0px;
     left: 0px;
     position: absolute;
-    background: rgb(63,81,181);
+    background: rgb(33,150,243);
     -webkit-animation: border-expand 0.2s cubic-bezier(0.4, 0, 0.4, 1) 0.01s alternate forwards;
             animation: border-expand 0.2s cubic-bezier(0.4, 0, 0.4, 1) 0.01s alternate forwards;
     -webkit-transition: all 1s cubic-bezier(0.4, 0, 1, 1);
@@ -10812,7 +10829,7 @@ _:-ms-input-placeholder, :root .mdl-slider.mdl-slider.is-upgraded {
     overflow: hidden; }
     /* line 86, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/tabs/_tabs.scss */
     .mdl-tabs__tab .mdl-tabs__ripple-container .mdl-ripple {
-      background: rgb(63,81,181); }
+      background: rgb(33,150,243); }
 
 /* line 92, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/tabs/_tabs.scss */
 .mdl-tabs__panel {
@@ -11035,7 +11052,7 @@ _:-ms-input-placeholder, :root .mdl-slider.mdl-slider.is-upgraded {
   margin: 0;
   padding: 20px 0; }
   /* line 32, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/textfield/_textfield.scss */
-  .mdl-textfield .mdl-button {
+  .mdl-textfield .mdl-button, .mdl-textfield .nav-links a, .nav-links .mdl-textfield a {
     position: absolute;
     bottom: 20px; }
 
@@ -11128,7 +11145,7 @@ _:-ms-input-placeholder, :root .mdl-slider.mdl-slider.is-upgraded {
   .mdl-textfield--floating-label.is-focused .mdl-textfield__label,
   .mdl-textfield--floating-label.is-dirty .mdl-textfield__label,
   .mdl-textfield--floating-label.has-placeholder .mdl-textfield__label {
-    color: rgb(63,81,181);
+    color: rgb(33,150,243);
     font-size: 12px;
     top: 4px;
     visibility: visible; }
@@ -11143,7 +11160,7 @@ _:-ms-input-placeholder, :root .mdl-slider.mdl-slider.is-upgraded {
     font-size: 12px; }
   /* line 156, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/bower_components/material-design-lite/src/textfield/_textfield.scss */
   .mdl-textfield__label:after {
-    background-color: rgb(63,81,181);
+    background-color: rgb(33,150,243);
     bottom: 20px;
     content: '';
     height: 2px;
@@ -12852,6 +12869,14 @@ _:-ms-input-placeholder, :root .mdl-slider.mdl-slider.is-upgraded {
 .page-links {
   clear: both;
   margin: 0 0 1.5em; }
+
+/* line 37, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/sass/site/primary/_posts-and-pages.scss */
+.nav-previous {
+  float: right; }
+
+/* line 41, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/sass/site/primary/_posts-and-pages.scss */
+.nav-next {
+  float: left; }
 
 /*--------------------------------------------------------------
 ## Asides

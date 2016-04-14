@@ -129,6 +129,7 @@ function mdlpress_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'mdlpress_scripts' );
 
+
 /**
  * Custom Walker Menu for Material Design Navigation
  */
