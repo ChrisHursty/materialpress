@@ -12916,6 +12916,12 @@ iframe,
 object {
   max-width: 100%; }
 
+/* line 17, /Applications/AMPPS/www/mdlwptheme.com/wp-content/themes/mdlpress/sass/media/_media.scss */
+img {
+  height: auto;
+  max-width: 100%;
+  display: block; }
+
 /*--------------------------------------------------------------
 ## Captions
 --------------------------------------------------------------*/

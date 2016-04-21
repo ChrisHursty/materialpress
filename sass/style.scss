@@ -22,11 +22,13 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 
 @import "color-definitions";
 
-$color-primary: $palette-blue-500 !default;
-$color-primary-dark: $palette-blue-700 !default;
-$color-accent: $palette-grey-900 !default;
+$color-primary: $palette-blue-500;
+$color-primary-dark: $palette-blue-700;
+$color-accent: $palette-grey-900;
 
 $preferred_font: 'Oswald', 'Helvetica', 'Arial', sans-serif !default;
+
+
 
 /*--------------------------------------------------------------
 >>> TABLE OF CONTENTS:
